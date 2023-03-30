@@ -3,10 +3,7 @@
 @section("tampilan")
 
 <div class="row g-0">
-
   <div class="p-4 border col-sm-6 col-md-4">
-
-
     <h5>Jenis Jasa</h5>
     <hr>
     <div style="width: 18rem;">
@@ -19,7 +16,6 @@
     <h5 class="mt-4">Info Cuci AC Dan Bangunan</h5>
     <hr>
     <h5 class="mt-4">Masalah Anda</h5>
-
     <div class="row">
       <div class="col-6">
         <ul class="list-group list-group-flush">
@@ -34,10 +30,8 @@
     </div>
     <h5 class="mt-4">Jumlah Unit AC</h5>
     <div class="input-group mb-3">
-      <!-- <span class="input-group-text" id="basic-addon1">0</span> -->
       <input type="number" class="form-control" value="1" aria-label="Username" aria-describedby="basic-addon1">
     </div>
-
     <h5 class="mt-4">Merek AC</h5>
     <div class="row">
       <div class="col-6">
@@ -74,7 +68,6 @@
     <hr>
     <h5>Tanggal</h5>
     <div class="input-group mb-3">
-      <!-- <span class="input-group-text" id="basic-addon1">0</span> -->
       <input type="date" class="form-control" value="1" aria-label="Username" aria-describedby="basic-addon1">
     </div>
     <h5>Waktu</h5>
@@ -92,7 +85,6 @@
     <div style="width: 18rem;">
       <ul class="list-group list-group-flush">
         <li class=><input type="Texs"> lokasi</li>
-
       </ul>
     </div>
     <hr>
@@ -109,14 +101,14 @@
   </div>
 </div>
 <style>
-ul {
-  list-style-type: none;
-  margin-left: 1rem;
-}
+  ul {
+    list-style-type: none;
+    margin-left: 1rem;
+  }
 
-li {
-  list-style-type: none;
-  margin-bottom: 5px;
-}
+  li {
+    list-style-type: none;
+    margin-bottom: 5px;
+  }
 </style>
 @endsection
