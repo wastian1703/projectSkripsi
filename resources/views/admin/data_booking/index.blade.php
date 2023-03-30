@@ -1,4 +1,4 @@
-@extends('template.mainAdmin')
+@extends('layouts.admin')
 
 @section('tampilan')
 <div class="container">

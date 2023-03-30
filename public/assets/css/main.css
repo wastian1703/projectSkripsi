@@ -58,3 +58,68 @@ img {
     width: 3rem;
     border-radius: 1.5rem;
 }
+
+.sidebar {
+    padding: 0 5px;
+    height: inherit;
+    width: inherit;
+    /* width: 32px;  */
+    border: solid rgb(53, 50, 50);
+    border-radius: 5px;
+    position: fixed;
+    /* transition: height width 2s; */
+    top: 15%;
+    background-color: rgb(87, 87, 233);
+    /* box-shadow: 0px 5px 20px rgb(128, 126, 246) */
+}
+
+
+/* 
+    .sidebar ul li .pilihan-menu,
+    h5 {
+        display: none;
+    } */
+
+
+/* .konten .te {
+        visibility: hidden;
+    } */
+
+.sidebar ul li {
+    width: 100%;
+    position: relative;
+    list-style-type: none;
+    padding: 5px 20px 5px -1%;
+    font-size: 1rem;
+    color: white;
+}
+
+.sidebar ul li i {
+    text-align: center;
+}
+
+.sidebar ul li a {
+    padding-left: 5px;
+    color: white;
+    text-decoration: none;
+    margin-left: 14px;
+    font-size: 16px;
+    top: 0;
+}
+
+.konten {
+    display: flex;
+}
+
+.te {
+    padding: 2px;
+}
+
+body {
+    position: relative;
+}
+
+.welcome {
+    width: inherit;
+    margin-right: 2rem;
+}

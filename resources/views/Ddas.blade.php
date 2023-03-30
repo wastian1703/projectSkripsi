@@ -1,6 +1,6 @@
-@extends('template.mainAdmin')
+@extends('layouts.admin')
 
-@section('tampilan')
+@section('content')
 <div id='chart1'>
 
     <canvas id="myChart"></canvas>
